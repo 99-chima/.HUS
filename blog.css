@@ -1,0 +1,836 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.root {
+  --font-family: "Roboto", serif;
+  --titlefont: "IBM Plex Sans", sans-serif;
+}
+.navbar {
+  width: 185vh;
+  height: 120px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  position: fixed;
+  z-index: 1000;
+}
+.logo {
+  background-color: red;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+.HUS {
+  position: relative;
+  top: 2.5rem;
+}
+.navlists {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.Home {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 15px;
+}
+.Home:hover {
+  color: red;
+}
+.about {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.about:hover {
+  color: red;
+}
+.pages {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.pages:hover {
+  color: red;
+}
+.blog {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.blog:hover {
+  color: red;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.contact:hover {
+  color: red;
+}
+.navend {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 15px;
+  font-family: var(--font-family);
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+.login {
+  color: white;
+  text-decoration: none;
+}
+.call {
+  padding-left: 2rem;
+}
+.submenu1 {
+  background-color: white;
+  height: 30px;
+  padding: 5px 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+.submenu2 {
+  background-color: white;
+  height: 30px;
+  padding: 5px 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+.header {
+  height: 400px;
+  background: url(./images/bradcam.png) center/cover, no-repeat,
+    fixed rgba(0, 0, 0, 1);
+}
+.content {
+  padding-top: 12rem;
+  margin-left: 3rem;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.back-home {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  padding-top: 8rem;
+}
+.container {
+  position: relative;
+  top: 5rem;
+  padding-left: 5rem;
+  display: grid;
+  grid-template-columns: 700px 400px;
+  column-gap: 30px;
+}
+.first-blog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+.date {
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top: 23rem;
+  z-index: 1;
+}
+.date:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.google {
+  color: black;
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+.google:hover {
+  color: red;
+}
+.dominion {
+  color: #6b6a6a;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+  margin-left: 2rem;
+}
+.rev {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+#user {
+  color: #6b6a6a;
+}
+.Travel {
+  color: #6b6a6a;
+  padding-left: 1rem;
+}
+#com {
+  color: #6b6a6a;
+  padding-left: 1rem;
+}
+.comments {
+  color: #6b6a6a;
+  padding-left: 1rem;
+}
+.second-blog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+.date2 {
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top: 23rem;
+  z-index: 1;
+}
+.date2:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.third-blog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+.date3 {
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top: 23rem;
+  z-index: 1;
+}
+.date3:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.fourth-blog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+}
+.date4 {
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top: 23rem;
+  bottom: 2rem;
+  z-index: 1;
+}
+.date4:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.fifth-blog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+.date5 {
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  top: 23rem;
+  bottom: 2rem;
+  z-index: 1;
+}
+.date5:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0);
+}
+.right-area {
+  margin-top: 3.2rem;
+}
+.search-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.search-label {
+  color: #6b6a6a;
+  position: relative;
+  top: 2rem;
+  left: 1.5rem;
+  z-index: 1;
+}
+.text-box {
+  border: #fbf9ff 2px solid;
+  width: 340px;
+  height: 50px;
+}
+.search-btn {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: white;
+  background-color: red;
+  width: 340px;
+  height: 50px;
+  margin-top: 2rem;
+}
+.category-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 450px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.category {
+  color: black;
+  padding-top: 1rem;
+}
+.line {
+  margin-top: 0.7rem;
+}
+.reasturant {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.trav-news {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.trav-news {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.modern {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.product {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.inspiration {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.health-care {
+  padding-top: 1.5rem;
+  color: #6b6a6a;
+}
+.post-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 470px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.recent {
+  color: black;
+  padding-top: 1rem;
+}
+.line2 {
+  margin-top: 0.7rem;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+}
+.life {
+  text-decoration: none;
+  color: black;
+  padding-top: 2rem;
+}
+.life:hover {
+  color: red;
+}
+.post-date {
+  color: #6b6a6a;
+  padding-top: 1rem;
+}
+.amazing {
+  text-decoration: none;
+  color: black;
+  padding-top: 2rem;
+}
+.amazing:hover {
+  color: red;
+}
+.post-date2 {
+  color: #6b6a6a;
+  padding-top: 1rem;
+}
+.astronomy {
+  text-decoration: none;
+  color: black;
+  padding-top: 2rem;
+}
+.astronomy:hover {
+  color: red;
+}
+.post-date3 {
+  color: #6b6a6a;
+  padding-top: 1rem;
+}
+.telescope {
+  text-decoration: none;
+  color: black;
+  padding-top: 2rem;
+}
+.telescope:hover {
+  color: red;
+}
+.post-date4 {
+  color: #6b6a6a;
+  padding-top: 1rem;
+}
+.tag-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.tag {
+  color: black;
+  padding-top: 1rem;
+}
+.line3 {
+  margin-top: 0.7rem;
+}
+.popular-tags1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.project {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 60px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+}
+.project:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.love {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 60px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1.3rem;
+}
+.love:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.technology {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 90px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1.3rem;
+}
+.technology:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.popular-tags2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.trav {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 60px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+}
+.trav:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.res {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 80px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1.3rem;
+}
+.res:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.life-style {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 90px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1.3rem;
+}
+.life-style:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.popular-tags3 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.design {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 60px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1rem;
+}
+.design:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.illustration {
+  color: #6b6a6a;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  width: 80px;
+  height: 25px;
+  border: #6b6a6a 2px solid;
+  margin-left: 1rem;
+}
+.illustration:hover {
+  color: white;
+  background-color: red;
+  border: red 2px solid;
+}
+.instagram-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.Feeds {
+  color: black;
+  padding-top: 1rem;
+}
+.line4 {
+  margin-top: 0.7rem;
+}
+.newsletter-box {
+  background-color: #fbf9ff;
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.newsL {
+  color: black;
+  padding-top: 1rem;
+}
+.line5 {
+  margin-top: 0.7rem;
+}
+.enter {
+  color: #6b6a6a;
+  position: relative;
+  top: 2rem;
+  left: 1.5rem;
+  z-index: 1;
+}
+.mail-box {
+  border: #fbf9ff 2px solid;
+  width: 340px;
+  height: 50px;
+}
+.subscribe-btn {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: white;
+  background-color: red;
+  width: 340px;
+  height: 50px;
+  margin-top: 2rem;
+}
+.footer {
+  position: relative;
+  top: 15rem;
+  background: url(./images/footer_bg.png) center/cover, no-repeat, fixed;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 250px;
+  grid-template-rows: 300px 300px 300px 300px;
+  column-gap: 10px;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.first-footer {
+  display: flex;
+  flex-direction: column;
+}
+.About {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.HUS-logo {
+  padding-top: 2rem;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+}
+.Contact {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.address {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.Phone-No {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Phone-No:hover {
+  color: white;
+}
+.Email {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Email:hover {
+  color: white;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.imp-link {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.footer-links {
+  padding-top: 2rem;
+  list-style-type: none;
+}
+.Proj {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Proj:hover {
+  color: white;
+}
+.connection {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.connection:hover {
+  color: white;
+}
+.testimonial {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.testimonial:hover {
+  color: white;
+}
+.Prop {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Prop:hover {
+  color: white;
+}
+.Support {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Support:hover {
+  color: white;
+}
+.letter {
+  display: flex;
+  flex-direction: column;
+}
+.Newsletter {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.Heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+#send {
+  color: white;
+  background: red;
+  width: 40px;
+  height: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.email-form {
+  padding-top: 3rem;
+}
+.Enter {
+  color: #6b6a6a;
+  position: relative;
+  top: 1.5rem;
+  left: 1.3rem;
+}
+.copyrights {
+  padding-top: 13rem;
+}
+.line9 {
+  width: 1200px;
+}
+.copy {
+  color: #6b6a6a;
+  font-size: 15px;
+  padding-top: 2rem;
+}
+#heart {
+  color: #6b6a6a;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  padding-left: 3rem;
+}
+.facebook {
+  color: #6b6a6a;
+  font-size: 25px;
+}
+.facebook:hover {
+  color: red;
+}
+.twitter {
+  padding-left: 1.5rem;
+  font-size: 25px;
+  color: #6b6a6a;
+}
+.twitter:hover {
+  color: red;
+}
+

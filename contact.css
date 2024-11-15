@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.root {
+  --font-family: "Roboto", serif;
+  --titlefont: "IBM Plex Sans", sans-serif;
+}
+.navbar {
+  width: 185vh;
+  height: 120px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  position: fixed;
+  z-index: 1000;
+}
+.logo {
+  background-color: red;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+.HUS {
+  position: relative;
+  top: 2.5rem;
+}
+.navlists {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.Home {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-size: 15px;
+}
+.Home:hover {
+  color: red;
+}
+.about {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.about:hover {
+  color: red;
+}
+.pages {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.pages:hover {
+  color: red;
+}
+.blog {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.blog:hover {
+  color: red;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+.contact:hover {
+  color: red;
+}
+.navend {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 15px;
+  font-family: var(--font-family);
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
+.login {
+  color: white;
+  text-decoration: none;
+}
+.call {
+  padding-left: 2rem;
+}
+.submenu1 {
+  background-color: white;
+  height: 30px;
+  padding: 5px 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+.submenu2 {
+  background-color: white;
+  height: 30px;
+  padding: 5px 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+.header {
+  height: 400px;
+  background: url(./images/bradcam.png) center/cover, no-repeat,
+    fixed rgba(0, 0, 0, 1);
+}
+.content {
+  padding-top: 12rem;
+  margin-left: 3rem;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.back-home {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  padding-top: 7rem;
+}
+.map-section {
+  position: relative;
+  top: 5rem;
+}
+.map {
+  margin-left: 5rem;
+}
+.communication {
+  display: grid;
+  grid-template-columns: 700px 300px;
+  column-gap: 120px;
+  margin-top: 9rem;
+}
+.connection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  margin-left: 12rem;
+}
+.touch {
+  color: black;
+  font-size: 20px;
+}
+.message-box {
+  margin-top: 2rem;
+  position: relative;
+  right: 7rem;
+}
+.message {
+  color: #828282;
+  position: relative;
+  top: 4rem;
+  right: 5rem;
+  z-index: 1;
+}
+.name-email {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.name {
+  color: #828282;
+  position: relative;
+  top: 1.7rem;
+  right: 5rem;
+  z-index: 1;
+}
+.name-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  right: 6rem;
+}
+.e-mail {
+  color: #828282;
+  position: relative;
+  top: 1.7rem;
+  right: 4.5rem;
+  z-index: 1;
+}
+.mail-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  right: 6rem;
+}
+.subject {
+  color: #828282;
+  position: relative;
+  left: 2rem;
+  z-index: 1;
+}
+.subject-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  margin-top: 2rem;
+  position: relative;
+  right: 5rem;
+}
+.send-btn {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: white;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  margin-top: 2rem;
+}
+.right-aside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13rem;
+}
+.first-conncetion {
+  display: flex;
+  flex-direction: row;
+}
+#house {
+  color: #828282;
+  font-size: 20px;
+}
+.address1 {
+  font-size: 15px;
+  color: black;
+  padding-left: 2.5rem;
+  position: relative;
+  bottom: 1rem;
+}
+.address2 {
+  font-size: 15px;
+  color: #828282;
+  margin-left: 2.6rem;
+}
+.second-connection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+#mobil {
+  color: #828282;
+  font-size: 20px;
+}
+.number {
+  font-size: 15px;
+  color: black;
+  padding-left: 2rem;
+}
+.working-hours {
+  font-size: 15px;
+  color: #828282;
+  margin-top: 2rem;
+  position: relative;
+  right: 6rem;
+}
+.third-connection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+#envelope {
+  color: #828282;
+  font-size: 20px;
+}
+.mail-address {
+  font-size: 15px;
+  color: black;
+  padding-left: 2rem;
+}
+.anytime {
+  font-size: 15px;
+  color: #828282;
+  margin-top: 2rem;
+  position: relative;
+  right: 9rem;
+}
+.footer {
+  position: relative;
+  top: 12rem;
+  background: url(./images/footer_bg.png) center/cover, no-repeat, fixed;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 250px;
+  grid-template-rows: 300px 300px 300px 300px;
+  column-gap: 10px;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.first-footer {
+  display: flex;
+  flex-direction: column;
+}
+.About {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.HUS-logo {
+  padding-top: 2rem;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+}
+.Contact {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.address {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.Phone-No {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Phone-No:hover {
+  color: white;
+}
+.Email {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Email:hover {
+  color: white;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.imp-link {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.footer-links {
+  padding-top: 2rem;
+  list-style-type: none;
+}
+.Proj {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Proj:hover {
+  color: white;
+}
+.conn {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.connection:hover {
+  color: white;
+}
+.testimonial {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.testimonial:hover {
+  color: white;
+}
+.Prop {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Prop:hover {
+  color: white;
+}
+.Support {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Support:hover {
+  color: white;
+}
+.letter {
+  display: flex;
+  flex-direction: column;
+}
+.Newsletter {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.Heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+#send {
+  color: white;
+  background: red;
+  width: 40px;
+  height: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.email-form {
+  padding-top: 3rem;
+}
+.Enter {
+  color: #6b6a6a;
+  position: relative;
+  top: 1.5rem;
+  left: 1.3rem;
+}
+.copyrights {
+  padding-top: 13rem;
+}
+.line9 {
+  width: 1200px;
+}
+.copy {
+  color: #6b6a6a;
+  font-size: 15px;
+  padding-top: 2rem;
+}
+#heart {
+  color: #6b6a6a;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  padding-left: 3rem;
+}
+.facebook {
+  color: #6b6a6a;
+  font-size: 25px;
+}
+.facebook:hover {
+  color: red;
+}
+.twitter {
+  padding-left: 1.5rem;
+  font-size: 25px;
+  color: #6b6a6a;
+}
+.twitter:hover {
+  color: red;
+}
