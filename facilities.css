@@ -124,3 +124,136 @@
   margin-top: 0.5rem;
   margin-right: 1rem;
 }
+.header {
+  height: 400px;
+  background: url(./images/bradcam.png) center/cover, no-repeat,
+    fixed rgba(0, 0, 0, 1);
+}
+.content {
+  padding-top: 12rem;
+  margin-left: 3rem;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.back-home {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  padding-top: 8rem;
+}
+.company-faci {
+  position: relative;
+  top: 8rem;
+}
+.comp-faci {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.lines {
+  display: flex;
+  flex-direction: row;
+  margin-left: 35rem;
+}
+.line1 {
+  width: 10%;
+}
+.line2 {
+  width: 2%;
+  margin-left: 1rem;
+}
+.cards {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  column-gap: 30px;
+  z-index: 1;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  padding: 15px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+#swatchbook {
+  color: black;
+  font-size: 60px;
+  padding-top: 2rem;
+  text-align: center;
+}
+#swatchbook:hover {
+  color: red;
+}
+.card-title {
+  color: black;
+  padding-top: 3rem;
+  font-size: 15px;
+  text-align: center;
+}
+.card-detail {
+  color: #828282;
+  line-height: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+}
+.card-btn {
+  color: #e66543;
+  text-align: center;
+  padding-top: 2.5rem;
+  text-decoration: none;
+  font-size: 15px;
+}
+.line4 {
+  width: 10%;
+  margin-left: 9rem;
+  margin-top: 0.5rem;
+}
+.line4:hover {
+  color: black;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  padding: 15px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+#hotel {
+  color: black;
+  font-size: 60px;
+  padding-top: 2rem;
+  text-align: center;
+}
+#hotel:hover {
+  color: red;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  padding: 15px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+}
+#headset {
+  color: black;
+  font-size: 60px;
+  padding-top: 2rem;
+  text-align: center;
+}
+#headset:hover {
+  color: red;
+}
