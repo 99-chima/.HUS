@@ -123,4 +123,150 @@
   margin-top: 0.5rem;
   margin-right: 1rem;
 }
-
+.header {
+  height: 400px;
+  background: url(./images/bradcam.png) center/cover, no-repeat,
+    fixed rgba(0, 0, 0, 1);
+}
+.content {
+  padding-top: 12rem;
+  margin-left: 3rem;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.back-home {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  padding-top: 8rem;
+}
+.intro {
+  position: relative;
+  top: 10rem;
+  padding-left: 5rem;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 100px;
+}
+.experince {
+  height: 400px;
+  background: url(./images/exp_bg.png) center/cover no-repeat fixed;
+}
+.years {
+  position: relative;
+  color: grey;
+  font-size: 30px;
+  background-color: white;
+  width: 320px;
+  height: 350px;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  text-align: center;
+  padding-top: 7rem;
+}
+#ten {
+  font-size: 100px;
+  font-weight: bold;
+}
+.company-achiv {
+  display: flex;
+  flex-direction: column;
+}
+.intro-title {
+  color: red;
+  font-size: 30px;
+  line-height: 2rem;
+}
+#who {
+  color: black;
+}
+.lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+.line1 {
+  width: 20%;
+}
+.line2 {
+  width: 5%;
+  margin-right: 18rem;
+}
+.lorem2 {
+  color: #6b6a6a;
+  font-size: 15px;
+  line-height: 1.5rem;
+  padding-top: 2rem;
+}
+.achiv-list {
+  color: #1a1a1a;
+  font-size: 15px;
+  padding-top: 1.5rem;
+  list-style-type: none;
+}
+#check {
+  color: red;
+}
+.achiv1 {
+  padding-left: 1.3rem;
+  position: relative;
+  bottom: 1rem;
+}
+.achiv2 {
+  padding-left: 1.3rem;
+  position: relative;
+  bottom: 1rem;
+}
+.achiv3 {
+  padding-left: 1.3rem;
+  position: relative;
+  bottom: 1rem;
+}
+.achiv4 {
+  padding-left: 1.3rem;
+  position: relative;
+  bottom: 1rem;
+}
+.achiv-box {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1.5rem;
+}
+.build {
+  color: #6b6a6a;
+  font-size: 15px;
+  background: white;
+  width: 130px;
+  height: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  padding: 5px 9px;
+}
+.client {
+  color: #6b6a6a;
+  font-size: 15px;
+  background: white;
+  width: 130px;
+  height: 50px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-left: 2rem;
+  padding: 5px 9px;
+}
+#bui {
+  color: red;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
+#clie {
+  color: red;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
