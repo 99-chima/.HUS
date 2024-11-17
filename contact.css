@@ -123,3 +123,187 @@
   margin-top: 0.5rem;
   margin-right: 1rem;
 }
+.header {
+  height: 400px;
+  background: url(./images/bradcam.png) center/cover, no-repeat,
+    fixed rgba(0, 0, 0, 1);
+}
+.content {
+  padding-top: 12rem;
+  margin-left: 3rem;
+}
+.head {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.back-home {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  margin-right: 5rem;
+  padding-top: 7rem;
+}
+.map-section {
+  position: relative;
+  top: 5rem;
+}
+.map {
+  margin-left: 5rem;
+}
+.communication {
+  display: grid;
+  grid-template-columns: 700px 300px;
+  column-gap: 120px;
+  margin-top: 9rem;
+}
+.connection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  margin-left: 12rem;
+}
+.touch {
+  color: black;
+  font-size: 20px;
+}
+.message-box {
+  margin-top: 2rem;
+  position: relative;
+  right: 7rem;
+}
+.message {
+  color: #828282;
+  position: relative;
+  top: 4rem;
+  right: 5rem;
+  z-index: 1;
+}
+.name-email {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.name {
+  color: #828282;
+  position: relative;
+  top: 1.7rem;
+  right: 5rem;
+  z-index: 1;
+}
+.name-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  right: 6rem;
+}
+.e-mail {
+  color: #828282;
+  position: relative;
+  top: 1.7rem;
+  right: 4.5rem;
+  z-index: 1;
+}
+.mail-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  right: 6rem;
+}
+.subject {
+  color: #828282;
+  position: relative;
+  left: 2rem;
+  z-index: 1;
+}
+.subject-box {
+  border: #828282 2px solid;
+  width: 250px;
+  height: 40px;
+  margin-top: 2rem;
+  position: relative;
+  right: 5rem;
+}
+.send-btn {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: white;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  margin-top: 2rem;
+}
+.right-aside {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13rem;
+}
+.first-conncetion {
+  display: flex;
+  flex-direction: row;
+}
+#house {
+  color: #828282;
+  font-size: 20px;
+}
+.address1 {
+  font-size: 15px;
+  color: black;
+  padding-left: 2.5rem;
+  position: relative;
+  bottom: 1rem;
+}
+.address2 {
+  font-size: 15px;
+  color: #828282;
+  margin-left: 2.6rem;
+}
+.second-connection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+#mobil {
+  color: #828282;
+  font-size: 20px;
+}
+.number {
+  font-size: 15px;
+  color: black;
+  padding-left: 2rem;
+}
+.working-hours {
+  font-size: 15px;
+  color: #828282;
+  margin-top: 2rem;
+  position: relative;
+  right: 6rem;
+}
+.third-connection {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+#envelope {
+  color: #828282;
+  font-size: 20px;
+}
+.mail-address {
+  font-size: 15px;
+  color: black;
+  padding-left: 2rem;
+}
+.anytime {
+  font-size: 15px;
+  color: #828282;
+  margin-top: 2rem;
+  position: relative;
+  right: 9rem;
+}
