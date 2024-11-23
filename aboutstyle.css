@@ -330,3 +330,89 @@
   padding-left: 2rem;
   padding-top: 1rem;
 }
+.author-card {
+  margin-left: 30rem;
+  position: relative;
+  top: 18rem;
+}
+.Margaret {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: slategray;
+  padding-top: 0.5rem;
+}
+.position {
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #6b6a6a;
+  padding-top: 0.5rem;
+}
+.bio {
+  font-size: 20px;
+  color: black;
+  padding-top: 1.5rem;
+  line-height: 1.5rem;
+}
+.contact-card {
+  background-color: white;
+  height: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-top: 6rem;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 30px;
+  margin-left: 2rem;
+  position: relative;
+  top: 17rem;
+}
+.quote {
+  font-size: 30px;
+  color: black;
+  margin-top: 3rem;
+}
+.contact-btn {
+  color: red;
+  background-color: white;
+  width: 120px;
+  height: 30px;
+  border: 2px solid red;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 10rem;
+  position: relative;
+  right: 18rem;
+}
+.contact-btn:hover {
+  background-color: red;
+  color: white;
+}
+.contact-no {
+  display: flex;
+  flex-direction: row;
+  padding-left: 9rem;
+  padding-top: 6rem;
+}
+#phone {
+  color: red;
+  font-size: 20px;
+  background: white;
+  width: 50px;
+  height: 40px;
+  padding: 7px 12px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  border-radius: 50%;
+}
+.Hello {
+  text-transform: capitalize;
+  color: black;
+  padding-left: 2rem;
+}
+.number {
+  color: red;
+  font-size: 25px;
+  padding-top: 1.5rem;
+  position: relative;
+  right: 5rem;
+}
