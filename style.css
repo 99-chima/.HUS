@@ -558,3 +558,82 @@ font-size: 25px;
 padding-top: 1.5rem;
 position: relative;
 right: 5rem;}
+.news-section{display: flex;
+  flex-direction: column;
+ margin-top: 25rem;}
+  .latest{text-align: center;
+    text-transform: uppercase;
+  color: black;
+  font-size: 40px;}
+  .lines3{display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  padding-left: 37rem;}
+  .line7{width: 5%;}
+  .line8{width: 2%;
+  margin-left: 0.5rem;}
+  .news{display: grid;
+  grid-template-columns: 600px 600px;
+  column-gap: 30px;
+  padding-top: 2rem;}
+  .first-photo{background: url(./images/1.png) center/cover, no-repeat, fixed;
+  margin-left: 3rem;
+  width: 550px;
+  height: 400px;}
+  .second-photo{background: url(./images/2.png) center/cover, no-repeat, fixed;
+  width: 550px;
+  height: 400px;}
+  .dates{display: grid;
+  grid-template-columns: 600px 600px;
+  padding-top: 1rem;
+  margin-left: 3rem;}
+  .date1{color: white;
+      font-size: 20px;
+  background: red;
+  width: 60px;
+  height: 60px;
+  padding: 5px 12px;
+  display: inline-block;}
+  .date2{color: white;
+      font-size: 20px;
+      background: red;
+      width: 60px;
+      height: 60px;
+      padding: 5px 12px;
+      display: inline-block;}
+  .updates{display: grid;
+  grid-template-columns: 500px 500px;
+  column-gap: 100px;
+  margin-left: 8rem;
+  position: relative;
+  bottom: 8rem;
+  z-index: 1;}
+  .first-new{background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  width: 450px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  margin-left: 1.3rem;}
+  .I{color: #6b6a6a;
+  font-size: 15px;}
+  .Japan{text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  line-height: 2rem;
+  padding-top: 1rem;}
+  .Japan:hover{color: red;}
+  .read-btn{padding-top: 2rem;
+  color: black;
+  font-size: 15px;}
+  .read-btn:hover{color: red;}
+  .second-new{background-color: white;
+      border: 2px solid rgba(0, 0, 0, 0.02);
+      width: 450px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      padding: 15px 20px;
+  margin-left: 0.2rem;}
