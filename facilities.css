@@ -404,3 +404,174 @@
   position: relative;
   right: 5rem;
 }
+.footer {
+  position: relative;
+  top: 30rem;
+  background: url(./images/footer_bg.png) center/cover, no-repeat, fixed;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 250px;
+  grid-template-rows: 300px 300px 300px 300px;
+  column-gap: 10px;
+  padding-top: 8rem;
+  padding-left: 3rem;
+}
+.first-footer {
+  display: flex;
+  flex-direction: column;
+}
+.About {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.HUS-logo {
+  padding-top: 2rem;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+}
+.Contact {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.address {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+.Phone-No {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Phone-No:hover {
+  color: white;
+}
+.Email {
+  padding-top: 1rem;
+  color: #6b6a6a;
+}
+.Email:hover {
+  color: white;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.imp-link {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.footer-links {
+  padding-top: 2rem;
+  list-style-type: none;
+}
+.Proj {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Proj:hover {
+  color: white;
+}
+.connection {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.connection:hover {
+  color: white;
+}
+.testimonial {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.testimonial:hover {
+  color: white;
+}
+.Prop {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Prop:hover {
+  color: white;
+}
+.Support {
+  text-decoration: none;
+  color: #6b6a6a;
+}
+.Support:hover {
+  color: white;
+}
+.letter {
+  display: flex;
+  flex-direction: column;
+}
+.Newsletter {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.Heaven {
+  padding-top: 2rem;
+  color: #6b6a6a;
+  line-height: 1.5rem;
+}
+#send {
+  color: white;
+  background: red;
+  width: 40px;
+  height: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.email-form {
+  padding-top: 3rem;
+}
+.Enter {
+  color: #6b6a6a;
+  position: relative;
+  top: 1.5rem;
+  left: 1.3rem;
+}
+.copyrights {
+  padding-top: 13rem;
+}
+.line9 {
+  width: 1200px;
+}
+.copy {
+  color: #6b6a6a;
+  font-size: 15px;
+  padding-top: 2rem;
+}
+#heart {
+  color: #6b6a6a;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15rem;
+  padding-left: 3rem;
+}
+.facebook {
+  color: #6b6a6a;
+  font-size: 25px;
+}
+.facebook:hover {
+  color: red;
+}
+.twitter {
+  padding-left: 1.5rem;
+  font-size: 25px;
+  color: #6b6a6a;
+}
+.twitter:hover {
+  color: red;
+}
